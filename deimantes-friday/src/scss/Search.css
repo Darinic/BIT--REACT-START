@@ -1,0 +1,65 @@
+.container {
+  position: relative;
+  width: 90%;
+  margin: auto;
+}
+
+.card {
+  background-image: -webkit-gradient(linear, left top, right top, from(#e41d27), to(#b81d24));
+  background-image: linear-gradient(to right, #e41d27, #b81d24);
+  border: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.card-body {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: none;
+}
+
+.card-body input {
+  background-image: -webkit-gradient(linear, left top, right top, from(#e4484e), to(#c7484d));
+  background-image: linear-gradient(to right, #e4484e, #c7484d);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  line-height: 2rem;
+  padding-left: 2.2rem;
+  width: 60%;
+  outline: none;
+}
+
+.card-body input::-webkit-input-placeholder {
+  color: white;
+}
+
+.card-body input:-ms-input-placeholder {
+  color: white;
+}
+
+.card-body input::-ms-input-placeholder {
+  color: white;
+}
+
+.card-body input::placeholder {
+  color: white;
+}
+
+.picture {
+  position: absolute;
+  top: 1.7rem;
+  height: 2rem;
+  margin: 0;
+  padding-left: 0.5rem;
+}
+
+.sutvarkyti {
+  position: absolute;
+  width: 93%;
+  margin-left: 20%;
+  margin-top: -1.2rem;
+}
+/*# sourceMappingURL=Search.css.map */

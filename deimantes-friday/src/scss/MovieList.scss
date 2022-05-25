@@ -1,0 +1,39 @@
+$first-color: #e41d27;
+$second-color: #b81d24;
+$third-color:#f5f5f1 ;
+$fourth-color: #221f1f;
+$fifth-color: #a4a4a4;
+$sixth-color: #3d3c3c;
+
+// .DropDown {
+//     display:flex;
+//     justify-content: center;
+//     height: 2.5rem;
+// }
+
+.mainText, .subText {
+    background-color: $third-color;
+    margin: 0;
+    text-align: left;
+}
+.subText {
+    font-size:11px ;
+}
+
+.mainText {
+    color: $fourth-color;
+    font-size:13px;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    line-height: 0.8rem;
+    width: 63%;
+}
+.mainText:hover {
+    background-image: linear-gradient(to right, $first-color, $second-color);
+    cursor:pointer  
+}
+.mainText:hover span{
+    background-color:  $first-color;
+    cursor: pointer;
+}
+

@@ -1,0 +1,13 @@
+.exerciseDiv {
+    background-color: orange;
+    margin: auto;
+    width: 100%;
+    height:calc(100vh - 55.2px);
+}
+.exerciseDiv p {
+    margin:0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

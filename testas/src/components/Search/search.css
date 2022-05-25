@@ -1,0 +1,8 @@
+.search {
+    font-size: 24px ;
+    padding-top: 10px;
+}
+.search input {
+    padding: 10px 16px;
+    font-weight: bold;
+}
